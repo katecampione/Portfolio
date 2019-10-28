@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/13095994_3557763261497_507539509930869890_n.jpg?_nc_cat=105&cachebreaker=sd&_nc_oc=AQnurvA0OuJHpXfeHcrauAIrefVmzlybS_pEnEuXLDVl4aAkmHIFKhaaQvHKJTMDDck&_nc_ht=scontent.fapa1-2.fna&oh=25ec3322b516ced771cb7cda1c42f98e&oe=5E5A6BFF");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  font-family: 'Sintony', sans-serif;
+}
+
+#content {
+  text-align:center;
+  padding-top: 25%;
+  font-size: 22px;
+  color: white;
+  font-family: helvetica;
+}
+
+input{
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: red;
+}
