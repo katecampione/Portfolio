@@ -1,45 +1,46 @@
 body {
-  background-image: url("https://scontent.fapa1-2.fna.fbcdn.net/v/t1.0-9/13095994_3557763261497_507539509930869890_n.jpg?_nc_cat=105&cachebreaker=sd&_nc_oc=AQnurvA0OuJHpXfeHcrauAIrefVmzlybS_pEnEuXLDVl4aAkmHIFKhaaQvHKJTMDDck&_nc_ht=scontent.fapa1-2.fna&oh=25ec3322b516ced771cb7cda1c42f98e&oe=5E5A6BFF");
+  background-image: url("wanaka.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom-left;
+
 }
 
 nav {
   font-family: 'Sintony', sans-serif;
   background-color: black;
   color: white;
+  margin-bottom: 200px;
 }
 
-#content {
-  text-align:center;
-  padding-top: 25%;
-  font-size: 22px;
+.content{
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 0%;
   color: white;
-  font-family: helvetica;
-}
 
-input{
-  border: 0;
-  padding: 10px;
-  font-size: 18px;
+  font-family: 'Sintony', sans-serif;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
 }
-
-input[type="submit"] {
-  color: white;
-  background-color: red;
-}
-
 
 #logo {
   color: white;
   padding-right: 10px;
 }
 
-a.nav-link{
-  color: white;
+
+html{
+  height: 100%;
+
 }
 
-#hamburger {
-  color: white;
-}
+/* .hr {
+  width: 200px;
+  margin-left: 17%;
+  border-top: 1px solid white;
+  border-bottom 1px solid rgba(0,0,0,0.2);
+  color: "white";
+} */
