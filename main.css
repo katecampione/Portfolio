@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom-left;
+  margin-top: 50%;
 
 }
 
@@ -14,11 +15,12 @@ nav {
 }
 
 .content{
+  padding-bottom: 1600px;
   font-size: 40px;
   font-weight: 600;
-  padding-top: 0%;
-  color: white;
-
+  margin-top: 5%;
+  display: none;
+  color: black;
   font-family: 'Sintony', sans-serif;
   text-align: center;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -31,16 +33,11 @@ nav {
   padding-right: 10px;
 }
 
-
 html{
   height: 100%;
 
 }
 
-/* .hr {
-  width: 200px;
-  margin-left: 17%;
-  border-top: 1px solid white;
-  border-bottom 1px solid rgba(0,0,0,0.2);
-  color: "white";
-} */
+.container {
+  margin-top: 0;
+}
