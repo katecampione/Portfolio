@@ -9,20 +9,16 @@ nav {
   padding-right: 10px;
 }
 
-#insta {
-  padding-right: 15px;
-}
-#face {
-  padding-right: 15px;
-}
-#git {
+#insta, #face, #git {
   padding-right: 15px;
 }
 
 .jumbotron {
   height:1000px ;
   background-size: cover;
-  background-position: center;
+  background-position: right;
+  margin-bottom: 0px;
+
 }
 #about {
   /* background-color: black; */
@@ -47,4 +43,7 @@ hr{
 }
 #button {
   margin-left: 40%;
+}
+#jumbo {
+  margin-bottom: 0;
 }
