@@ -1,7 +1,8 @@
 body {
-  background-image: url("wanaka.JPG");
+  background-image: url("../images/wanaka.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 nav {
