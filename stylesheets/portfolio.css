@@ -1,0 +1,84 @@
+nav {
+  font-family: 'Sintony', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  color: white;
+  padding-right: 10px;
+}
+
+#insta, #face, #git {
+  padding-right: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Sintony', sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+body {
+    background: black;
+    font-family: font-family: 'Sintony', sans-serif;
+}
+
+.blurb h2 {
+   color: white;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: white;
+    font-weight: 200;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.navbar.scrolled {
+    background: grey);
+    transition: background 500ms;
+}
+#black {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.blurb h2 {
+    font-size: 2rem;
+}
+.small {
+  font-size : 11px;
+}
+
+#yelp {
+  padding-right: 10%;
+}
+
+#patatap {
+  padding-left: 10%;
+}
+
+#color{
+  padding-right: 10%;
+}
+
+#candy {
+  padding-left: 10%;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
