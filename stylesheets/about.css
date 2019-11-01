@@ -49,3 +49,7 @@ hr{
 #jumbo {
   margin-bottom: 0;
 }
+
+html {
+  height: 100%;
+}
