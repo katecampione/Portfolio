@@ -1,3 +1,18 @@
+<?php
+if($_POST["submit"]) {
+    $recipient="katecampione@gmail.com";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +53,7 @@
   </nav>
   <h2>Let's get in touch!</h2>
   <div class="form">
-    <form>
+    <form method="POST" action="contact.php">
       <div class="form-group">
         <label class="heading" for="name">Name</label>
         <input type="text" class="form-control" id="name"  placeholder="Name" required>
