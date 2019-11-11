@@ -44,10 +44,10 @@ body {
 
 }
 
-.navbar.scrolled {
+/* .navbar.scrolled {
     background: grey;
     transition: background 500ms;
-}
+} */
 
 #black {
   background: #000000;  /* fallback for old browsers */
@@ -68,8 +68,4 @@ body {
         font-weight: 100;
         font-size: 3rem;
     }
-<<<<<<< HEAD
-  }
-=======
 }
->>>>>>> 5deeb4b8c316fcd87f37182493c2cb3ef7346532
