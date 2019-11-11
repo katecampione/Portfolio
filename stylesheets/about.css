@@ -14,7 +14,7 @@ nav {
 }
 
 .jumbotron {
-  height:1000px ;
+  height:750px ;
   background-size: cover;
   background-position: right;
   margin-bottom: 0px;
@@ -48,8 +48,4 @@ hr{
 
 #jumbo {
   margin-bottom: 0;
-}
-
-html {
-  height: 100%;
 }
