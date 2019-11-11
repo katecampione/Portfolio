@@ -16,7 +16,7 @@
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   </head>
   <body id="black">
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark">
     <a id="logo" class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" height="30px" width="40px">KC Design Co.</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -57,19 +57,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <a href="https://kate-yelp-camp-app.herokuapp.com/"><img id="yelp" src="../images/yelpcamp1.jpg" alt="" class="img-fluid "></a>
+            <div class="col-md-6 img-center">
+                <a href="https://kate-yelp-camp-app.herokuapp.com/" target="blank"><img id="yelp" src="../images/yelpcamp1.jpg" alt="" class="img-fluid "></a>
             </div>
         </div>
           <div class="row align-items-center content">
+
               <div class="col-md-6 order-2 order-md-1">
-                  <a href="https://katecampione.github.io/Patatap-Clone/"><img id="patatap" src="../images/patatap1.jpg" alt="patatap-clone" class="img-fluid"></a>
+                  <a href="https://katecampione.github.io/Patatap-Clone/" target="blank"><img id="patatap" src="../images/patatap1.jpg" alt="patatap-clone" class="img-fluid"></a>
               </div>
               <div class="col-md-6 text-center order-1 order-md-2">
                   <div class="row justify-content-center">
                       <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                           <h2>Patatap Clone</h2>
-                          <p class="lead">This is a clone of a popular web app called Patatap. Users click on a keyboard key and the app responds with a sound and colorful animation sprites. Paper.js was used to animate circles with unique features for each key, and Howler.js was implemented to trigger a specific audio file for each key and HTML5/CSS was used for the interface. <br /><br /> <span class="small" > Caution: this game is highly addictive.<br />* This web app only functions on devices with a physical keyboard.</span></p>
+                          <p class="lead">This is a clone of a popular web app called Patatap. Users click on a keyboard key and the app responds with a sound and colorful animation sprites. Paper.js was used to animate circles with unique features for each key, and Howler.js was implemented to trigger a specific audio file for each key and HTML5/CSS was used for the interface. <br />Note: This web app only functions on devices with a physical keyboard.</span></p>
                       </div>
                   </div>
               </div>
@@ -79,17 +80,17 @@
                   <div class="row justify-content-center">
                       <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                           <h2>Color Game</h2>
-                          <p class="lead">While this game is not nearly as fun as Patatap, it's a great way to master rgb color codes. This game was built using HTML5, CSS, and Vanilla Javascript.</p>
+                          <p class="lead">This color guessing game is a great way to master rgb color codes. This game was built using HTML5, CSS, and Vanilla Javascript.</p>
                       </div>
                   </div>
               </div>
               <div class="col-md-6">
-                  <a href="https://katecampione.github.io/RBG-Guessing-Game/"><img id="color" src="../images/colorpicker1.jpg" alt="" class="img-fluid"></a>
+                  <a href="https://katecampione.github.io/RBG-Guessing-Game/" target="blank"><img id="color" src="../images/colorpicker1.jpg" alt="" class="img-fluid"></a>
               </div>
           </div>
           <div class="row align-items-center content">
               <div class="col-md-6 order-2 order-md-1">
-                  <a href="https://katecampione.github.io/Candy-Museum/"><img id="candy" src="../images/candy1.jpg" alt="candy" class="img-fluid"></a>
+                  <a href="https://katecampione.github.io/Candy-Museum/" target="blank"><img id="candy" src="../images/candy1.jpg" alt="candy" class="img-fluid"></a>
               </div>
               <div class="col-md-6 text-center order-1 order-md-2">
                   <div class="row justify-content-center">
@@ -119,7 +120,6 @@
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" />
     </script>
-
     <script>
         $(function () {
             $(document).scroll(function () {
@@ -128,6 +128,7 @@
             });
         });
     </script>
+
 
   </body>
 </html>

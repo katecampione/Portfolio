@@ -45,9 +45,10 @@ body {
 }
 
 .navbar.scrolled {
-    background: grey);
+    background: grey;
     transition: background 500ms;
 }
+
 #black {
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -57,24 +58,9 @@ body {
 .blurb h2 {
     font-size: 2rem;
 }
+
 .small {
   font-size : 11px;
-}
-
-#yelp {
-  padding-right: 10%;
-}
-
-#patatap {
-  padding-left: 10%;
-}
-
-#color{
-  padding-right: 10%;
-}
-
-#candy {
-  padding-left: 10%;
 }
 
 @media (max-width: 1200px) {
@@ -82,3 +68,4 @@ body {
         font-weight: 100;
         font-size: 3rem;
     }
+  }
