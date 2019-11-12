@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
   <link href="https://fonts.googleapis.com/css?family=Sintony&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../stylesheets/contact.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -42,22 +42,22 @@
   </nav>
   <h2>Let's get in touch!</h2>
   <div class="form">
-    <form>
+    <form id="contact-form" method="POST" action="contact-form-handler.php">
       <div class="form-group">
         <label class="heading" for="name">Name</label>
-        <input type="text" class="form-control" id="name"  placeholder="Name" required>
+        <input type="text"  name= "name" class="form-control" id="name"  placeholder="Name" required>
       </div>
       <div class="form-group">
         <label class="heading"for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
       </div>
-      <div class="form-group">
+      <!-- <div class="form-group">
         <label class="heading" for="subject">Subject</label>
-        <input type="text" class="form-control" id="subject"  placeholder="Subject">
-      </div>
+        <input type="text" name="subject" class="form-control" id="subject"  placeholder="Subject">
+      </div> -->
       <div class="form-group">
         <label class="heading" for="comment">Message:</label>
-        <textarea class="form-control" rows="5" id="comment"></textarea>
+        <textarea name="message" class="form-control" rows="5" id="comment"></textarea>
       </div>
       <button id="button" type="submit" class="btn btn-danger">Submit</button>
     </form>
