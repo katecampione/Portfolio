@@ -1,7 +1,7 @@
 nav {
   font-family: 'Sintony', sans-serif;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 #logo {
@@ -10,13 +10,13 @@ nav {
 }
 
 #insta, #face, #git {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 h1 {
   text-align: center;
   font-family: 'Sintony', sans-serif;
-  color: white;
+  color: black;
   padding: 20px;
 }
 
@@ -26,20 +26,19 @@ body {
 }
 
 .blurb h2 {
-   color: white;
+   color: black;
    font-weight: 100;
    font-size: 2.5rem;
 }
 
 .blurb p {
-    color: white;
+    color: black;
     font-weight: 200;
     font-size: 1.125rem;
     line-height: 2;
 }
 
 .content {
-    margin-top: 100px;
     margin-bottom: 100px;
 
 }
@@ -48,10 +47,8 @@ span{
   font-size: .82rem;
 }
 
-#black {
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+#background {
+  background: #FFFFFF;  /* fallback for old browsers */
 }
 
 .blurb h2 {
@@ -67,4 +64,16 @@ span{
         font-weight: 100;
         font-size: 3rem;
     }
+}
+#mac {
+height: 500px;
+}
+
+#navbar {
+  padding: .5rem 5rem 2.5rem 1rem;
+}
+
+#laptop {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
