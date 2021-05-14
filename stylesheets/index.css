@@ -77,3 +77,11 @@ height: 500px;
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+
+.Typewriter__wrapper {
+  font-family: '-apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
+  color: black;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 1.2;
+}
