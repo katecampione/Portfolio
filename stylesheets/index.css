@@ -107,3 +107,9 @@ li {
   font-weight: 200;
   line-height: 36px;
 }
+
+@media (max-width: 995px) {
+    #polaroid {
+        max-width: 360px;
+    }
+}

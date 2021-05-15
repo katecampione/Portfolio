@@ -65,20 +65,23 @@ span{
         font-size: 3rem;
     }
 }
-#mac {
-height: 500px;
-}
 
 #navbar {
   padding: .5rem 5rem 2.5rem 1rem;
 }
 
-#laptop {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+@media (max-width: 1225px) {
+    #collage {
+        max-width: 500px;
+    }
 }
-
-#collage {
-  height: 300px;
-  width: 600px;
+@media (max-width: 1000px) {
+    #collage {
+        max-width: 400px;
+    }
+}
+@media (max-width: 798px) {
+    #collage {
+        max-width: 360px;
+    }
 }
