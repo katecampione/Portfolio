@@ -83,3 +83,9 @@ height: 500px;
         max-width: 300px
     }
 }
+
+@media (max-width: 450px) {
+    #mac {
+        max-height: 300px
+    }
+}
