@@ -95,10 +95,6 @@ height: 500px;
   width:3rem;
 }
 
-#typewriter {
-  padding-bottom: 3rem;
-}
-
 li {
   font-weight: 200;
   line-height: 36px;
@@ -114,6 +110,12 @@ li {
 
 @media (max-width: 450px) {
     #logo {
+        max-width: 300px
+    }
+}
+
+@media (max-width: 450px) {
+    #widgetcontainer {
         max-width: 350px
     }
 }
