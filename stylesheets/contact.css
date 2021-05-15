@@ -65,17 +65,9 @@ span{
         font-size: 3rem;
     }
 }
-#mac {
-height: 500px;
-}
 
 #navbar {
   padding: .5rem 5rem 2.5rem 1rem;
-}
-
-#laptop {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .Typewriter__wrapper {
@@ -116,6 +108,6 @@ li {
 
 @media (max-width: 450px) {
     #widgetcontainer {
-        max-width: 350px
+        max-width: 300px
     }
 }
