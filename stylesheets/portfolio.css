@@ -59,6 +59,12 @@ span{
   font-size : 11px;
 }
 
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
 #mac {
 height: 500px;
 }
@@ -70,4 +76,10 @@ height: 500px;
 #laptop {
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+@media (max-width: 450px) {
+    #logo {
+        max-width: 350px
+    }
 }

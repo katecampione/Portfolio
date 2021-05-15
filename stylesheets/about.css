@@ -85,3 +85,9 @@ span{
         max-width: 360px;
     }
 }
+
+@media (max-width: 450px) {
+    #logo {
+        max-width: 350px
+    }
+}

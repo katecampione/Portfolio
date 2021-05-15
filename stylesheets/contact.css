@@ -111,3 +111,9 @@ li {
 #widget {
   padding-top: 5rem;
 }
+
+@media (max-width: 450px) {
+    #logo {
+        max-width: 350px
+    }
+}
