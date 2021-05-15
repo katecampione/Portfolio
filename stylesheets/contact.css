@@ -108,8 +108,6 @@ li {
   line-height: 36px;
 }
 
-@media (max-width: 995px) {
-    #polaroid {
-        max-width: 360px;
-    }
+#widget {
+  padding-top: 5rem;
 }
