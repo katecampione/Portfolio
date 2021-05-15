@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>About</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>About</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
   <link href="https://fonts.googleapis.com/css?family=Sintony&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../stylesheets/about.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   </head>
-  <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a id="logo" class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" height="30px" width="40px">KC Design Co.</a>
+  <body id="background">
+  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+    <a id="logo" class="navbar-brand" href="../index.html"><img class="img-responsive" src="../images/katelogo.png" "></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./portfolio.html">Portfolio</a>
         </li>
-        <li class="nav-item  active">
-          <a class="nav-link" href="./about.html">About</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="./about.html">About</a><span class="sr-only">(current)</span>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./contact.html">Contact</a>
@@ -39,38 +43,35 @@
       </span>
     </div>
   </nav>
-  <div class="container-fluid">
-    <div class="row">
-      <div id="jumbo" class="jumbotron col-md order-2 order-md-1" style="background-image: url(../images/katepride4.jpg)">
-      </div>
-      <div id ="about" class="col-md">
-        <h1>
-          Hi, I'm <strong>Kate</strong>.</h1>
-        <p>I'm a web developer / designer based in Denver, Colorado.</p>
-        <br /><br />
-        <h3>My Skills</h3><hr />
-        <p>
-          I can hard code a web application from scratch or help you put the finishing touches on your wordpress site.
-        </p>
-        <br /><br />
-        <h3>Hire Me</h3><hr /><br />
-        <h5>I'm currently available for freelance work.</h5><br />
-        <p>
-          I have a passion for building intelligent, beautiful websites. If you have a project that you want to get started, think you need my help, or are looking to expand your network, then get in touch with me.
-        </p>
-        <div id="button">
-          <a href="mailto:kate@katecampione.com"><button type="button" class="btn btn-outline-light" style="display: block; margin: 0 auto;"><i class="fas fa-envelope-square"></i> Contact Me</button>
+
+<div id="background">
+  <section class="container-fluid">
+    <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1 text-center">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                  <img src="../images/collage.png" alt="" class="img-fluid" id="collage">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 order-1 order-md-2 text-center">
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0 ">
+            <h2>I'm Kate. Nice to meet you!</h2>
+            <p>
+              I grew up in Overland Park, Kansas, but moved to Minnesota to study graduated from Concordia St. Paul University with a degree in Biology & Environmental Science. After college I worked in residential energy efficiency for several years, but on a bit of a whim decided to leave my job, sell everything I owned, and travel the world. I spent 2.5 years abroad and somehwere along the way met my beautiful wife, Nina, who is from Austria. We moved to Denver in 2019
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="https://squaresend.com/squaresend.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+
+  </section>
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" />
     </script>
-
   </body>
 </html>

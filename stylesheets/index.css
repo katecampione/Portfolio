@@ -98,3 +98,12 @@ height: 500px;
 #typewriter {
   padding-bottom: 3rem;
 }
+
+li {
+  font-weight: 200;
+  line-height: 36px;
+}
+#text {
+  font-weight: 200;
+  line-height: 36px;
+}

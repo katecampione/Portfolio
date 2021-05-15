@@ -1,7 +1,7 @@
 nav {
   font-family: 'Sintony', sans-serif;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 #logo {
@@ -10,42 +10,75 @@ nav {
 }
 
 #insta, #face, #git {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
-.jumbotron {
-  height:800px ;
-  background-size: cover;
-  background-position: right;
-  margin-bottom: 0px;
-
-}
-#about {
-  /* background-color: black; */
-  color: white;
-    font-family: 'Sintony', sans-serif;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-top: 20px;
-}
-
- h1,h3, h5, p {
+h1 {
   text-align: center;
+  font-family: 'Sintony', sans-serif;
+  color: black;
+  padding: 20px;
 }
 
-hr{
-    border: 0;
-    height: 1px;
-    width: 200px;
-    background: white;
-    background-image: linear-gradient(to right, #fff, #333, #fff);
+body {
+    background: black;
+    font-family: font-family: 'Sintony', sans-serif;
 }
 
-#button {
-  margin-bottom: 15px;
+.blurb h2 {
+   color: black;
+   font-weight: 100;
+   font-size: 2.5rem;
 }
 
-#jumbo {
-  margin-bottom: 0;
+.blurb p {
+    color: black;
+    font-weight: 200;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-bottom: 100px;
+
+}
+
+span{
+  font-size: .82rem;
+}
+
+#background {
+  background: #FFFFFF;  /* fallback for old browsers */
+}
+
+.blurb h2 {
+    font-size: 2rem;
+}
+
+.small {
+  font-size : 11px;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+#mac {
+height: 500px;
+}
+
+#navbar {
+  padding: .5rem 5rem 2.5rem 1rem;
+}
+
+#laptop {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+#collage {
+  height: 300px;
+  width: 600px;
 }
