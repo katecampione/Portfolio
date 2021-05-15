@@ -85,3 +85,16 @@ height: 500px;
   font-size: 2rem;
   line-height: 1.2;
 }
+
+.Typewriter__cursor {
+  color: white;
+}
+
+#map {
+  height: 3rem;
+  width:3rem;
+}
+
+#typewriter {
+  padding-bottom: 3rem;
+}

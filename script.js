@@ -5,11 +5,11 @@ var typewriter = new Typewriter(app, {
   });
 
 typewriter.typeString('Hi, my name is Kate!')
-    .pauseFor(2500)
+    .pauseFor(750)
     .deleteAll()
     .typeString('I am a skilled Shopify Developer...')
-    .pauseFor(2500)
+    .pauseFor(750)
     .deleteAll()
-    .typeString('with a passion for adventure & <strong>BIG</strong> ideas!')
-    .pauseFor(2500)
+    .typeString('with a passion for adventure & big ideas!')
+    .pauseFor(750)
     .start();
