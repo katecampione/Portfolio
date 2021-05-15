@@ -59,12 +59,6 @@ span{
   font-size : 11px;
 }
 
-@media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-}
 #mac {
 height: 500px;
 }

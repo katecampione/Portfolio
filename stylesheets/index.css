@@ -108,11 +108,6 @@ li {
 
 @media (max-width: 450px) {
     #logo {
-        max-width: 400px
-    }
-}
-@media (max-width: 400px) {
-    #logo {
         max-width: 350px
     }
 }
